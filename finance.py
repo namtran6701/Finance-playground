@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from datetime import date, timedelta 
 from newsapi import NewsApiClient
 import matplotlib.dates as mdates
+import streamlit as st
 
 NEWS_API_KEY = st.secrets["NEWS_API_KEY"]
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
