@@ -6,7 +6,7 @@ st.title("My Finance Playground")
 finance_tools = FinanceTools()
 
 # Find Stock Ticker section
-st.markdown("### Find Stock Ticker:")
+st.markdown("### Find Stock Ticker")
 
 # Prompt user to input company name
 company_name = st.text_input("Enter the name of the company:")
